@@ -16,3 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/order/{id}','Order\OrderController@aaa');
+Route::get('add','Order\OrderController@add');
+Route::get('update/{id}','Order\OrderController@update');
+Route::get('delete/{id}','Order\OrderController@delete');
+Route::get('select','Order\OrderController@select');
+
